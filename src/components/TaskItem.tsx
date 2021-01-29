@@ -8,7 +8,7 @@ type Props = {
 }
  
 const TaskItem: React.FC<Props> = ({ task, handleDone, handleDelete }) => {
-    //リアウとはulタグで作るため、このコンポーネントはliタグで作成する 
+    //リストはulタグで作るため、このコンポーネントはliタグで作成する 
     return (
         <li className={task.done ? 'done' : ''}>
             <label>

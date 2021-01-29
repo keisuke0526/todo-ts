@@ -7,11 +7,11 @@ import './App.css'
 const initialState: Task[] = [
         {
             id: 2,
-            title: '夕ごはん',
+            title: '２つ目のタスク',
             done: false
         },{
             id: 1,
-            title: '朝ごはん',
+            title: '１つ目のタスク',
             done: true
         }
     ]
